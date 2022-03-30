@@ -18,9 +18,6 @@ public class UserInfo {
     @Column(length = 10, nullable = false)
     private String name;
 
-    @Column(length = 255)
-    private String password;
-
     @Column(length = 11)
     private String contact;
 

@@ -7,6 +7,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    generate-ddl: true
   redis:
     host: localhost
     port: 6378
+jwt:
+  header: Authorization
+  secret: grooteogisecret
